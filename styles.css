@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+}
+#drum-machine {
+    width:600px;
+    height:450px;
+    background-color:dimgrey;
+    border:7px solid orange;
+    display:grid;
+    grid-template-columns:3fr 2fr;
+    margin:auto;
+}
+
+#button-pad {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    width: 90%;
+    height: 90%;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.drum-pad {
+    background-color: dimgrey;
+    color: black;
+    width:87px;
+    height:105px;
+    margin:auto;
+    display:table;
+    position:relative;
+}
+
+.drum-pad p {
+    font-size:19px;
+    display:table-cell;
+    position:absolute;
+    left:44%;
+    top:35%;
+    color:black;
+    font-weight:bold;
+}
+.clip {
+    display:none;
+}
+#other-controls-section {
+    background-color:lightgrey;
+    height:90%;
+    width:90%;
+    margin:auto;
+    position:relative;
+}
+#display {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    min-height: 40px;
+    width:80%;
+    margin:auto;
+    background-color:dimgrey;
+    padding-left:2px;
+}
+    #display p {
+        font-family: 'Rubik',sans-serif;
+        font-size:20px;
+        text-align:center;
+        vertical-align:middle;
+        color: white;
+    }
+
+#logo-section {
+    position:absolute;
+    bottom:5%;
+    left:8%;
+    font-family:'Rubik',sans-serif;
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+#fcc-logo {
+    font-size: 26px;
+}
+#fcc-text {
+    font-size: 23px;
+}
